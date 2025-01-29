@@ -8,10 +8,12 @@ body {
   padding: 0;
 }
 
+
+
+
 .sheet-header-container {
   width: 100%;
   padding: 10px;
-  border: 1px solid rgb(97, 97, 97);
   box-sizing: border-box;
 }
 
@@ -23,8 +25,7 @@ body {
   font-size: 2em;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 20px;
-  border-bottom: 2px solid black;
+  margin-bottom: 10px;
   padding-bottom: 10px;
 }
 
