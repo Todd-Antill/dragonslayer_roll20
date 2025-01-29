@@ -1,0 +1,96 @@
+<div class="sheet-header-container">
+  <!-- First row: Logo -->
+  <div class="sheet-logo-row">Dragonslayer</div>
+
+  <!-- Second row: Character Name -->
+  <div class="sheet-character-name-row">
+    <input type="text" name="attr_character-name">
+    <label for="attr_character-name">Character Name</label>
+  </div>
+
+  <!-- Third row: Race, Class, Level, Title -->
+  <div class="sheet-header-row">
+    <div><input type="text" name="attr_race"><label for="attr_race">Race</label></div>
+    <div><input type="text" name="attr_class"><label for="attr_class">Class</label></div>
+    <div><input type="text" name="attr_level"><label for="attr_level">Level</label></div>
+    <div><input type="text" name="attr_title"><label for="attr_title">Title</label></div>
+  </div>
+
+  <!-- Fourth row: Alignment and Deity -->
+  <div class="sheet-alignment-row">
+    <div><input type="text" name="attr_alignment"><label for="attr_alignment">Alignment</label></div>
+    <div><input type="text" name="attr_deity"><label for="attr_deity">Deity</label></div>
+  </div>
+
+  <!-- Fifth row: Age, Height, Weight -->
+  <div class="sheet-age-row">
+    <div><input type="text" name="attr_age"><label for="attr_age">Age</label></div>
+    <div><input type="text" name="attr_height"><label for="attr_height">Height</label></div>
+    <div><input type="text" name="attr_weight"><label for="attr_weight">Weight</label></div>
+  </div>
+
+  <!-- Sixth row: Languages -->
+  <div class="sheet-languages-row">
+    <input type="text" name="attr_languages">
+    <label for="attr_languages">Languages</label>
+  </div>
+
+  <!-- Seventh row: XP Bonus, Experience, Attack Bonus -->
+  <div class="sheet-xp-row">
+    <div><input type="text" name="attr_xp-bonus"><label for="attr_xp-bonus">XP Bonus</label></div>
+    <div><input type="text" name="attr_experience"><label for="attr_experience">Experience</label></div>
+    <div><input type="text" name="attr_attack-bonus"><label for="attr_attack-bonus">Attack Bonus</label></div>
+  </div>
+</div>
+
+<!-- PC Info Row -->
+<div class="sheet-pc-info-row">
+  <!-- Armor Class -->
+  <div class="sheet-pc-info-section compact">
+    <h3>Armor Class</h3>
+    <input type="text" name="attr_armor-class">
+  </div>
+
+  <!-- Hit Points -->
+  <div class="sheet-pc-info-section compact">
+    <h3>Hit Points</h3>
+    <div class="hp-container">
+      <label for="attr_current-hp" class="hp-label">Current</label>
+      <input type="text" name="attr_current-hp">
+    </div>
+    <div class="hp-container">
+      <label for="attr_max-hp" class="hp-label">Max</label>
+      <input type="text" name="attr_max-hp">
+    </div>
+  </div>
+
+<!-- Weapon Section (Expanded) -->
+<div class="sheet-weapon-section expanded">
+  <div class="sheet-weapon-header">
+    <span>Weapon</span>
+    <span>DMG</span>
+  </div>
+  <div class="sheet-weapon-entry">
+    <button type="roll"></button>
+    <input type="text" name="attr_primary-melee-weapon">
+    <input type="text" name="attr_primary-melee-dmg">
+    <label for="attr_primary-melee-weapon" class="weapon-label">Primary</label>
+  </div>
+  <div class="sheet-weapon-entry">
+    <button type="roll"></button>
+    <input type="text" name="attr_secondary-melee-weapon">
+    <input type="text" name="attr_secondary-melee-dmg">
+    <label for="attr_secondary-melee-weapon" class="weapon-label">Secondary</label>
+  </div>
+  <div class="sheet-weapon-entry">
+    <button type="roll"></button>
+    <input type="text" name="attr_missile-weapon">
+    <input type="text" name="attr_missile-dmg">
+    <label for="attr_missile-weapon" class="weapon-label">Missile</label>
+  </div>
+</div>
+
+
+</div>
+
+
